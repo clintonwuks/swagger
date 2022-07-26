@@ -6,7 +6,13 @@ module.exports = {
 
     ],
   theme: {
-    extend: {},
+    
+    extend: {
+      fontFamily: {
+        'display': ['Oswald'],
+        'body': ['"Times New Roman"'],
+}
+    },
   },
   plugins: [],
 }
